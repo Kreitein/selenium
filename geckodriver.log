@@ -1,0 +1,23 @@
+1638680553681	geckodriver	INFO	Listening on 127.0.0.1:57394
+1638680873112	geckodriver	INFO	Listening on 127.0.0.1:60178
+1638680876193	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60179" "-no-remote" "-profile" "C:\\Users\\Andrey\\AppData\\Local\\Temp\\rust_mozprofileZoYF2j"
+1638680876515	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Andrey\\AppData\\Local\\Temp\\rust_mozprofileZoYF2j\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60179/devtools/browser/1145b091-2d97-4ab3-86af-17728e4ea720
+1638680880072	Marionette	INFO	Listening on port 60184
+1638680880427	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 10: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1638680898976	Marionette	INFO	Stopped listening on port 60184
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638680926959	geckodriver	INFO	Listening on 127.0.0.1:57569
+1638680930007	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57570" "-no-remote" "-profile" "C:\\Users\\Andrey\\AppData\\Local\\Temp\\rust_mozprofilet17Kz7"
+1638680930303	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Andrey\\AppData\\Local\\Temp\\rust_mozprofilet17Kz7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57570/devtools/browser/c23013c9-bd83-4d69-a33f-17deaf97aea1
+1638680932071	Marionette	INFO	Listening on port 57575
+1638680932166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 10: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1638680954803	Marionette	INFO	Stopped listening on port 57575
